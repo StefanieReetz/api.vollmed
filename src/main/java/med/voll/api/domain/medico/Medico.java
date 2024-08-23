@@ -60,5 +60,34 @@ public class Medico {
     }
 
     public Long getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getCrm() {
+        return crm;
+    }
+
+    public Especialidade getEspecialidade() {
+        return especialidade;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public Boolean getAtivo() {
+        return ativo;
     }
 }
